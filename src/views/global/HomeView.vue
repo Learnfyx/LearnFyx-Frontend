@@ -70,7 +70,6 @@ const handleNewsletterSubscribe = (email) => {
 }
 
 .app {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f5f7f8;
   color: #0d141c;
   min-height: 100vh;

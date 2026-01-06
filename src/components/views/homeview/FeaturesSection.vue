@@ -27,6 +27,7 @@
 <script setup>
 import School from 'vue-material-design-icons/School.vue'
 import CheckCircle from 'vue-material-design-icons/CheckCircle.vue'
+import InfinityIcon from 'vue-material-design-icons/Infinity.vue'
 
 // eslint-disable-next-line no-unused-vars
 const props = defineProps({
@@ -57,7 +58,7 @@ const props = defineProps({
       },
       {
         id: 3,
-        icon: Infinity,
+        icon: InfinityIcon,
         title: 'Acesso Vitalício',
         description: 'Pague uma vez e tenha acesso ao conteúdo para sempre, incluindo todas as futuras atualizações do curso.',
         color: 'rgba(99, 102, 241, 0.1)'
